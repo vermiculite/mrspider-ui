@@ -6,26 +6,21 @@ App = React.createClass({
 
     getMeteorData() {
         return {
-            tasks: Tasks.find({}, {sort: {createdAt: -1}}).fetch()
+            spiders: Spiders.find({}, {sort: {createdAt: -1}}).fetch()
         }
     },
 
-    renderTasks() {
-        return this.data.tasks.map((task) => {
-            return <Task key={task._id} task={task} />;
+    renderSpiders() {
+        return this.data.spiders.map((spider) => {
+            return <Spider key={spider._id} spider={spider} />;
         });
     },
-
-
 
 
     handleSubmit(event) {
         event.preventDefault();
         var text = ReactDOM.findDOMNode(this.refs.textInput).value.trim();
-        Tasks.insert({
-            text: text,
-            createdAt: new Date()
-        });
+        Meteor.call('newSpider', text);
         ReactDOM.findDOMNode(this.refs.textInput).value = '';
     },
 
@@ -33,17 +28,17 @@ App = React.createClass({
         return (
             <div className="container">
                 <header>
-                    <h1>Todo List</h1>
-                    <form className="new-task" onSubmit={this.handleSubmit} >
+                    <h1>Spider List</h1>
+                    <form className="new-spider" onSubmit={this.handleSubmit} >
                         <input
                             type="text"
                             ref="textInput"
-                            placeholder="Type to add new tasks" />
+                            placeholder="Type to add new spiders" />
                     </form>
                 </header>
 
-                <ul>
-                    {this.renderTasks()}
+                <ul className="list-group">
+                    {this.renderSpiders()}
                 </ul>
             </div>
         );
