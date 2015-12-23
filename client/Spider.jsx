@@ -7,9 +7,7 @@ Spider = React.createClass({
     },
     render() {
         return (
-            <li className="list-group-item">
-                {this.props.spider.name}
-            </li>
+            <tr><td>{this.props.spider.name}</td></tr>
         );
     }
 });

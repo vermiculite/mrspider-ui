@@ -59,7 +59,14 @@
         <item url="file://$USER_HOME$/.meteor/packages/underscore/1.0.4/web.browser/underscore.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ejson/1.0.7/web.browser/stringify.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.6/web.browser/.npm/package/node_modules/meteor-ecmascript-runtime/client.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client.browserify.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/router.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/lib/router.js" />
         <item url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.1/web.browser/diff.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/route.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/triggers.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/_init.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/group.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
         <item url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/heartbeat.js" />
@@ -86,6 +93,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
         <item url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/react.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/kadira_react-layout/1.5.3/web.browser/lib/react_layout.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/spacebars-runtime.js" />
         <item url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
         <item url="file://$USER_HOME$/.meteor/packages/session/1.1.1/web.browser/session.js" />
@@ -173,7 +181,14 @@
       <root url="file://$USER_HOME$/.meteor/packages/underscore/1.0.4/web.browser/underscore.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ejson/1.0.7/web.browser/stringify.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ecmascript-runtime/0.2.6/web.browser/.npm/package/node_modules/meteor-ecmascript-runtime/client.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client.browserify.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/router.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/lib/router.js" />
       <root url="file://$USER_HOME$/.meteor/packages/diff-sequence/1.0.1/web.browser/diff.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/route.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/triggers.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/_init.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.10.0/web.browser/client/group.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/tracker.js" />
       <root url="file://$USER_HOME$/.meteor/packages/tracker/1.0.9/web.browser/deprecated.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-common/1.2.2/web.browser/heartbeat.js" />
@@ -200,6 +215,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/compiler.js" />
       <root url="file://$USER_HOME$/.meteor/packages/ddp-client/1.2.1/web.browser/sockjs-0.3.4.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars-compiler/1.0.7/web.browser/react.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/kadira_react-layout/1.5.3/web.browser/lib/react_layout.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.7/web.browser/spacebars-runtime.js" />
       <root url="file://$USER_HOME$/.meteor/packages/check/1.1.0/web.browser/match.js" />
       <root url="file://$USER_HOME$/.meteor/packages/session/1.1.1/web.browser/session.js" />

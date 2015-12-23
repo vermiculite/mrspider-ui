@@ -12,7 +12,7 @@ App = React.createClass({
 
     renderSpiders() {
         return this.data.spiders.map((spider) => {
-            return <Spider key={spider._id} spider={spider} />;
+            return <Spider key={spider._id} spider={spider}/>;
         });
     },
 
@@ -28,18 +28,30 @@ App = React.createClass({
         return (
             <div className="container">
                 <header>
-                    <h1>Spider List</h1>
-                    <form className="new-spider" onSubmit={this.handleSubmit} >
-                        <input
-                            type="text"
-                            ref="textInput"
-                            placeholder="Type to add new spiders" />
+                    <form className="new-spider" onSubmit={this.handleSubmit}>
+                        <div className="input-field">
+                            <label htmlFor="addSpider">Add Spider</label>
+                            <input
+                                type="text"
+                                ref="textInput"
+                                id="addSpider"
+                                className="validate"
+                            />
+
+                        </div>
                     </form>
                 </header>
 
-                <ul className="list-group">
+                <table>
+                    <thead>
+                    <tr>
+                        <th>Name</th>
+                    </tr>
+                    </thead>
+                    <tbody>
                     {this.renderSpiders()}
-                </ul>
+                    </tbody>
+                </table>
             </div>
         );
     }

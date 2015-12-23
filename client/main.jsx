@@ -1,6 +1,16 @@
-Meteor.startup(function () {
-    // Use Meteor.startup to render the component after the page is ready
-    ReactDOM.render(<App />, document.getElementById("render-target"));
-});
-
 Meteor.subscribe('spiders');
+
+
+MainLayout = React.createClass({
+    render() {
+        return (
+            <div>
+                <header>
+                    <h1 className="center-align">Mr Spider UI</h1>
+                </header>
+                <main>{this.props.content}</main>
+                <footer className="center-align">We love Mr Spider</footer>
+            </div>
+        );
+    }
+});
