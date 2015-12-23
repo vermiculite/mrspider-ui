@@ -35,14 +35,14 @@ App = React.createClass({
                                 type="text"
                                 ref="textInput"
                                 id="addSpider"
-                                className="validate"
+                                className="validate teal darken-1"
                             />
 
                         </div>
                     </form>
                 </header>
 
-                <table>
+                <table className="teal lighten-1">
                     <thead>
                     <tr>
                         <th>Name</th>
