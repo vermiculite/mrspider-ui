@@ -5,7 +5,7 @@ UrlItem = React.createClass({
     },
 
     render() {
-        return <li>{this.props.url}<i onClick={this.handleDelete} className="material-icons right">delete</i><div className="clearfix"></div></li>
+        return <li className="teal collection-item">{this.props.url}<i onClick={this.handleDelete} className="material-icons right">delete</i><div className="clearfix"></div></li>
     }
 
 });
