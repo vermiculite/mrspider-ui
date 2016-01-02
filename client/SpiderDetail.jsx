@@ -15,7 +15,7 @@ SpiderDetail = React.createClass({
     render() {
         var urlNodes = this.getUrls().map(url=> {
             return (
-                <li key={url}>{url}</li>
+                <UrlItem  key={url} url={url} spider={this.props.id}/>
             )
         });
         return (

@@ -22,9 +22,9 @@ UrlForm = React.createClass({
     handleSubmit(event) {
         event.preventDefault();
         Meteor.call('addUrl', this.props.id, this.state.url);
-        this.setState({
-            url: ''
-        });
+        var urlInput = event.target.url;
+        urlInput.value = '';
+        urlInput.focus();
     },
 
     render() {
